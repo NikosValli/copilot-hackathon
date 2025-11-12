@@ -47,18 +47,21 @@ This repository contains a complete movie database application that serves as a 
 ## 🛠️ Tech Stack
 
 ### Backend
+
 - **Framework**: ASP.NET Core 9.0
 - **Database**: Entity Framework Core with In-Memory provider
 - **API**: RESTful Web API with OpenAPI/Swagger
 - **Testing**: xUnit, Moq, WebApplicationFactory
 
 ### Frontend
+
 - **Framework**: Vue 3.5+ with Composition API
 - **Build Tool**: Vite 7.x
 - **Development**: Hot Module Replacement (HMR)
 - **Styling**: Modern CSS with scoped styles
 
 ### Additional Tools
+
 - **MCP Server**: Model Context Protocol for GitHub Copilot
 - **Node.js**: v20.19.0 or >=22.12.0
 - **.NET SDK**: 9.0
@@ -101,6 +104,7 @@ dotnet run
 ```
 
 The backend API will be available at:
+
 - HTTP: `http://localhost:5000`
 - HTTPS: `https://localhost:5001`
 
@@ -177,6 +181,7 @@ The project includes comprehensive unit and integration tests:
 - **UnitTest1.cs** - Additional unit tests
 
 Run tests with:
+
 ```bash
 cd backend.Tests
 dotnet test
@@ -195,11 +200,13 @@ The MCP server provides custom tools and context for working with movie data wit
 ## 🎨 Frontend Development
 
 The Vue 3 frontend provides a modern interface for:
+
 - Viewing the movie list
 - Seeding the database with sample data
 - Displaying movies with their categories
 
 Key components:
+
 - `App.vue` - Main application layout
 - `MovieList.vue` - Displays all movies
 - `SeedMovies.vue` - Provides database seeding functionality
@@ -217,6 +224,7 @@ The frontend uses Vite for build configuration. See `frontend/vite.config.js` fo
 ## 🤝 Contributing
 
 This is a workshop project. Feel free to:
+
 - Experiment with the code
 - Add new features
 - Improve existing functionality
@@ -241,6 +249,7 @@ This project is provided as-is for educational purposes as part of the GitHub Co
 ### CORS Issues
 
 If you encounter CORS errors:
+
 1. Ensure the backend is running
 2. Check the CORS policy in `backend/Program.cs`
 3. Verify the frontend is making requests to the correct backend URL
@@ -248,6 +257,7 @@ If you encounter CORS errors:
 ## 📬 Support
 
 For questions or issues:
+
 1. Check the [workshop instructions](instructions/0-project-explanation.md)
 2. Review the [troubleshooting section](#-troubleshooting)
 3. Consult GitHub Copilot for code assistance
@@ -255,3 +265,5 @@ For questions or issues:
 ---
 
 **Ready to get started?** Head over to the [workshop instructions](instructions/0-project-explanation.md) and begin your GitHub Copilot journey! 🚀
+
+Code Review with Copilot
