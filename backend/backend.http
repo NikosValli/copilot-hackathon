@@ -1,0 +1,11 @@
+@backend_HostAddress = http://localhost:5065
+
+
+###
+
+### Seed the database with sample data
+POST {{backend_HostAddress}}/seed
+Content-Type: application/json
+
+### Get all movies with categories
+GET {{backend_HostAddress}}/movies
